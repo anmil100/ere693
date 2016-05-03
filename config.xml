@@ -1,0 +1,13 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{425196d3-7231-40d8-855b-2f38ae4e45b9}</AddInID><Description>New Addin for Lab 9 ERE693</Description><Version>1</Version><Image /><Author>Miller</Author><Company>SUNYESF</Company><Date>04/19/2016</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="pythonaddin_addin.py" namespace="pythonaddin_addin"><ArcMap>
+    <Commands>
+        <Button caption="ExistingConditions" category="Python Addin" class="Existing" id="pythonaddin_addin.existing" image="Images\099-floppy-disk.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="FutureConditions" category="Python Addin" class="Future" id="pythonaddin_addin.future" image="Images\089-mobile.png" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        </Toolbars>
+    <Menus>
+        <Menu caption="Menu" category="Python Addin" id="pythonaddin_addin.menu" isRootMenu="true" isShortcutMenu="true" separator="true"><Items><Button refID="pythonaddin_addin.existing" /><Button refID="pythonaddin_addin.future" /></Items></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
